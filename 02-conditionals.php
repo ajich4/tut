@@ -3,7 +3,7 @@
 <?php include("sidebar.php")?>
 <?php 
         $name = 'Kevin'; 
-        $gender = "F";
+        $gender = "M";
         $favorite_fruit = $fruits[1];
         $age = 12;
         ?>

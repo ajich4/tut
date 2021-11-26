@@ -2,10 +2,9 @@
 
 <?php include("header.php")?>
 <?php include("sidebar.php")?>
-index page
 
 <small>Count of fruits: <?php echo count($fruits); ?></small>
-<h1>for... each</h1>
+<h1>ForEach loop</h1>
 
 <ul>
     <?php foreach($fruits as $fruit) {?>
@@ -15,7 +14,7 @@ index page
     
     <hr>
     
-    <h1>for loop</h1>
+    <h1>For loop</h1>
     
     <ul>
         <?php for ($i = 0; $i <= count($fruits) - 1; $i++) {?>
@@ -25,7 +24,7 @@ index page
         
         <hr>
         
-        <h1>while loop</h1>
+        <h1>While loop</h1>
         
         <ul>
             <?php
