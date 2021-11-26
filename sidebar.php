@@ -1,7 +1,7 @@
 <style>
     .box {
         height: 100px;
-        width: 100px;
+        width: 300px;
     }
 
 </style>
